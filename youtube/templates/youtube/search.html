@@ -1,0 +1,14 @@
+{% extends 'youtube/base.html' %} {% block content %} {% load static %}
+
+<div class="container top-contents">
+    <div class="top-image">
+        <img src="{% static 'youtube/top_logo.png' %}" class="top-image">
+    </div>
+
+    <form method="GET" action="{% url 'youtube:index' %}" 　class="input-group">
+        <div class="col-10 content-center">
+            <input type="text" class="form-control " placeholder="ギター弾いてみたを検索" aria-label="" aria-describedby="basic-addon1" name="keyword">
+        </div>
+    </form>
+</div>
+{% endblock %}

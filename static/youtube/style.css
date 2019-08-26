@@ -1,0 +1,49 @@
+.top-image{
+    text-align: center;
+    margin-top: 20pt;
+}
+
+.top_contents{
+    position: relative;
+    height: 100vh;
+}
+
+.top-image img{
+    width: 40%;
+    height: auto;
+}
+
+.contents{
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+}
+
+.contents a{
+    color: black;
+}
+
+.thumbnail{
+    display: inline-block;
+}
+
+.list-title{
+    display: inline-block;
+    width: 70%;
+    word-wrap: break-word;
+}
+
+.detaile-container{
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 10pt;
+}
+.detaile_relation{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dee7ec;
+}
+
+.content-center{
+    margin: 0 auto;
+}
